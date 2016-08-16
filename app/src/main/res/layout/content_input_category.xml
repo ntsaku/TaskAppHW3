@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="jp.techacademy.naoto.sakurai.taskapp.InputCategoryActivity">
+
+
+
+<EditText
+    android:id="@+id/ctable_name_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="50dp"
+    android:hint="名前" />
+<Button
+    android:id="@+id/ctable_done_button"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ctable_name_edit_text"
+    android:layout_alignParentRight="true"
+    android:text="登録" />
+</RelativeLayout>
